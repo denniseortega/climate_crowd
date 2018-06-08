@@ -1,10 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>Welcome, {{userName}}!</h1>
-<div style="text-align:center">
+<div class = "container">
   <h1>
-    Climated Crowd {{month}}/{{day}}/{{year}}
+    Climated Crowd
   </h1>
+  <h3>{{currentReport}}</h3>
+  <app-report-list [childReportList]="masterReportList" (clickSender)="editReport($event)"></app-report-list>
+  <app-new-report (sendReport)="addReport($event)"></app-new-report>
 </div>
-<h3>{{currentReport}}</h3>
-<app-report-list [childReportList]="masterReportList" (clickSender)="editReport($event)"></app-report-list>
-<app-new-report (sendReport)="addReport($event)"></app-new-report>
