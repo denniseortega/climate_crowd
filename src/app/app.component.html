@@ -7,6 +7,4 @@
 </div>
 <h3>{{currentReport}}</h3>
 <app-report-list [childReportList]="masterReportList" (clickSender)="editReport($event)"></app-report-list>
-<app-edit-report [childSelectedReport]="selectedReport" (clickedDone)="finishedEditing()"></app-edit-report>
 <app-new-report (sendReport)="addReport($event)"></app-new-report>
- 
