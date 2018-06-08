@@ -15,9 +15,9 @@ export class ReportListComponent {
   }
 
   reports: Report[] = [
-    new Report('Finish weekend Angular homework for Epicodus course', 3),
-    new Report('Begin brainstorming possible JavaScript group projects', 2),
-    new Report('Add README file to last few Angular repos on GitHub', 2)
+    new Report('Jun 8, 2018','SAVE Organization','Alex Smith', 'alex@email.com'),
+    new Report('May 24, 2018','HELP Organization', 'Mary Joe','mary@email.com'),
+    new Report('April 13, 2018', 'RAISE Organization', 'Tom Jeff', 'tom@gmail.com')
   ];
 
   filterByCompleteness: string = "incompleteReports";
