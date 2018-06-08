@@ -1,3 +1,7 @@
-<p>
-  new-report works!
-</p>
+<h1>New Report</h1>
+<div>
+ <label>Enter Report Description:</label>
+ <input #newDescription>
+</div>
+<div>
+<button (click)="(submitForm newDescription.value='');">Add</button>
