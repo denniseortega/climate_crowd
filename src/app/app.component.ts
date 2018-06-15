@@ -7,6 +7,7 @@ import { Report } from './models/report.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'WWF Climate Crowd';
   currentFocus: string = 'Climate Crowd Reports';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;
