@@ -4,4 +4,4 @@
  <input #newDescription>
 </div>
 <div>
-<button (click)="(submitForm newDescription.value='');">Add</button>
+<button (click)="submitForm (newDescription.value); newDescription.value ='';">Add</button>
