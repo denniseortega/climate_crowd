@@ -1,14 +1,20 @@
 # WwfClimateCrowd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+### _Version 1.0_
+### _By: Dennise Ortega_
+### _June 2018_
 
 ## Description
 
 It is a rebuild of the WWF Climate Crowd website where you can submit your own report to help people and nature in a changing climate. You can browse projects and organization.
 
-### Version 1.0
-### By: Dennise Ortega
-### June 2018
+In order to submit your report you will have to enter:
+* your name
+* your email
+* select organization
+* select type of report
+* your report title
+* multiple select changes in weather and climate
 
 ## Setup/Installation Requirements
 * _Angular2_
@@ -26,6 +32,8 @@ It is a rebuild of the WWF Climate Crowd website where you can submit your own r
 * _View Videos using and api key_
 * _Check out projects by navigating a map displayed on the webpage_
 * _More front end styling_
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Development server
 
