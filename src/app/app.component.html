@@ -1,8 +1,5 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class = "container">
-  <h1>{{title}}</h1>
-  <router-outlet></router-outlet>
-  <h3>{{currentReport}}</h3>
-  <app-report-list [childReportList]="masterReportList" (clickSender)="editReport($event)"></app-report-list>
-  <app-new-report (sendReport)="addReport($event)"></app-new-report>
-</div>
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+  <!-- <h3>{{currentReport}}</h3>
+<app-report-list [childReportList]="masterReportList" (clickSender)="editReport($event)"></app-report-list>
+<app-new-report (sendReport)="addReport($event)"></app-new-report> -->
