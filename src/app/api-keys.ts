@@ -1,7 +1,7 @@
 export var masterFirebaseConfig = {
     apiKey: "xxxx",
-    authDomain: "xxxx.firebaseapp.com",
-    databaseURL: "https://xxxx.firebaseio.com",
-    storageBucket: "xxxx.appspot.com",
-    messagingSenderId: "xxxx"
+    authDomain: "AIzaSyDXI_93VAFmo9bkYdtN7hoWP1TTpozJMVg",
+    databaseURL: "climate-crowd-47594.firebaseapp.com",
+    storageBucket: "climate-crowd-47594.appspot.com",
+    messagingSenderId: "664130957861"
   };
