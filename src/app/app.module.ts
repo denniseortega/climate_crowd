@@ -8,6 +8,7 @@ import { NewReportComponent } from './new-report/new-report.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { routing } from './app.routing';
     ReportListComponent,
     NewReportComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
