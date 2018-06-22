@@ -6,40 +6,37 @@
 <div>
 <button (click)="submitForm (newDescription.value); newDescription.value ='';">Add</button> -->
 
-<div class="container">
-  <form>
-    <div class="form-group">
-      <label for="organization">- select organization -</label>
-      <select class="form-control" id="organization">
-        <option>world wildlife fund</option>
-        <option>african wildlife foundation</option>
-        <option>centro terra viva</option>
-        <option>conservation international</option>
-        <option>giz</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="name">* your name</label>
-      <input type="name" class="form-control" id="name" placeholder="enter your name">
-    </div>
-    <div class="form-group">
-      <label for="email">* your email</label>
-      <input type="name" class="form-control" id="email" placeholder="enter your email" required>
-    </div>
-    <div class="form-group">
-      <label for="reportType">- select organization -</label>
-      <select class="form-control" id="reportType">
-        <option>personal observation</option>
-        <option>interview</option>
-        <option>story</option>
-        <option>publication</option>
-        <option>project</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="title">* report title</label>
-      <input type="name" class="form-control" id="report" placeholder="enter report title" required>
-    </div>
-
-  </form>
-</div>
+<form>
+  <div class="form-group">
+    <label for="organization">- select organization -</label>
+    <select class="form-control" id="organization">
+      <option>world wildlife fund</option>
+      <option>african wildlife foundation</option>
+      <option>centro terra viva</option>
+      <option>conservation international</option>
+      <option>giz</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="name">* your name</label>
+    <input type="name" class="form-control" id="name" placeholder="enter your name">
+  </div>
+  <div class="form-group">
+    <label for="email">* your email</label>
+    <input type="name" class="form-control" id="email" placeholder="enter your email" required>
+  </div>
+  <div class="form-group">
+    <label for="reportType">- select organization -</label>
+    <select class="form-control" id="reportType">
+      <option>personal observation</option>
+      <option>interview</option>
+      <option>story</option>
+      <option>publication</option>
+      <option>project</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="title">* report title</label>
+    <input type="name" class="form-control" id="report" placeholder="enter report title" required>
+  </div>
+</form>
