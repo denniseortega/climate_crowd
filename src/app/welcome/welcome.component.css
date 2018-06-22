@@ -1,6 +1,7 @@
+header{
+  background-image: url("/assets/img/rainforest.png");
+  height: 90vh;
+}
 h1{
-  font-family: helvetica;
   text-align: center;
-  background-color: black;
-  color: white;
 }

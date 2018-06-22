@@ -1,3 +1,7 @@
-<p>
-  projects works!
-</p>
+<div class="container container-fluid">
+  <div *ngIf="porject">
+    Name: <h4>{{randomProject.strProject}}</h4>
+    <em>Instructions:</em> <p>{{projectList.strInstructions}}</p>
+  </div>
+  <button class="button" (click)="getProjectList()" type="submit">click to help</button>
+</div>
