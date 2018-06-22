@@ -2,7 +2,30 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-It is a rebuild of the WWF Climate Crowd website where you can submit your own report to help people and nature in a changing climate. You can browse projects and organizations, as well as watch videos. 
+## Description
+
+It is a rebuild of the WWF Climate Crowd website where you can submit your own report to help people and nature in a changing climate. You can browse projects and organization.
+
+### Version 1.0
+### By: Dennise Ortega
+### June 2018
+
+## Setup/Installation Requirements
+* _Angular2_
+* _Node_
+* _JS_
+* _CSS_
+* _Bootstrap_
+
+## Current Features
+* _You can add a new report by clicking on the new report link in the navbar_
+* _You may also check out existing projects_
+* _New reports will be added to the firebase_
+
+## Future Features
+* _View Videos using and api key_
+* _Check out projects by navigating a map displayed on the webpage_
+* _More front end styling_
 
 ## Development server
 
