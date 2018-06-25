@@ -14,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     AboutComponent,
     NavbarComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
