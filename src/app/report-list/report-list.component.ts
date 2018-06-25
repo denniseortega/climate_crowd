@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Report } from '../models/report.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-report-list',
@@ -7,13 +8,19 @@ import { Report } from '../models/report.model';
   styleUrls: ['./report-list.component.css']
 })
 export class ReportListComponent {
+  
+  constructor(private router: Router){}
+
   @Input() childReportList: Report[];
   @Output() clickSender = new EventEmitter();
 
   reports: Report[] = [
-    new Report('Jun 8, 2018','SAVE Organization','Alex Smith', 'alex@email.com'),
-    new Report('May 24, 2018','HELP Organization', 'Mary Joe','mary@email.com'),
-    new Report('April 13, 2018', 'RAISE Organization', 'Tom Jeff', 'tom@gmail.com')
+    new Report('SAVE Organization', 'Alex'),
+    new Report('Mary','HELP Organization'),
+    new Report('Tom', 'RAISE Organization')
   ];
 
+  goToDetailPage(clickedReport: Report){
+    this.router.navigate(['reports', clickedReport.id]);
+  };
 }

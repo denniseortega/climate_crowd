@@ -5,6 +5,7 @@ import { NewReportComponent } from './new-report/new-report.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ReportListComponent } from './report-list/report-list.component';
+import {ReportDetail} from './report-detail/report-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -27,7 +28,10 @@ const appRoutes: Routes = [
  path: 'reportList',
  component: ReportListComponent
 },
-
+{
+ path: 'reports/:id',
+ component: ReportDetailComponent
+}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

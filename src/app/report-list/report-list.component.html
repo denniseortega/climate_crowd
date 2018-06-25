@@ -1,12 +1,7 @@
-<!-- <h2>Report List</h2>
+<h2>Report List</h2>
 
-<div *ngFor="let report of reports | async"  class="panel panel-default">
+<div *ngFor="let report of reports" (click)="gotToDetailPage(report)" class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(report)"><em>{{report.title}}</em></h3>
-    <div *ngIf="currentRoute === '/admin'">
-      {{report.description}}
-      <hr>
-      <app-new-report [selectedReport]="report"></app-new-report>
-    </div>
+    <h3><em>{{report.title}}</em> by {{report.name}}</h3>
   </div>
-</div> -->
+</div>
