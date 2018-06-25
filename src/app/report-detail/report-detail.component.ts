@@ -10,9 +10,14 @@ import { Report} from '../report.model';
 })
 export class ReportDetailComponent implements OnInit {
 
-  constructor() { }
+  reportId: number = null;
+
+  constructor(private route: ActivatedRoute, private location: Location) { }
 
   ngOnInit() {
+    this.route.params.forEach((urlParameters) => {
+      this.reportId = parseInt(urlParameters['id']);
+    });
   }
 
 }
